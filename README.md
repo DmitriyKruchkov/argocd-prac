@@ -24,7 +24,7 @@ gitops-repo/
 
 ## Как развернуть
 
-1. Замените `repoURL: https://github.com/org/gitops-repo` на реальный URL вашего репозитория
+1. Замените `repoURL: https://github.com/DmitriyKruchkov/argocd-prac.git` на реальный URL вашего репозитория
    во всех Application-манифестах (`argocd/app-of-apps.yaml` и `argocd/applications/*.yaml`).
 
 2. Запушьте этот репозиторий в git.

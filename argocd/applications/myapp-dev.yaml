@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/org/gitops-repo
+    repoURL: https://github.com/DmitriyKruchkov/argocd-prac.git
     targetRevision: main
     path: apps/myapp/overlays/dev
   destination:
