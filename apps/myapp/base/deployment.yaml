@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: alpine:3.22
+          image: nginx
           ports:
             - containerPort: 8080
           resources:
